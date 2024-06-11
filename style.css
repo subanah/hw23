@@ -1,0 +1,222 @@
+body{
+   height: 1000vh;
+}
+
+
+
+
+
+#slider{
+    background-color: #ddbea9;
+ 
+    display: flex;
+    align-items: center;
+}
+#slider .right{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: -57px;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+}
+#slider .left{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+}
+#slider .container{
+    width: 1323px;
+    margin: auto;
+}
+#slider  img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover ;
+    padding: 0  10px;
+    transform: scale(0.8);
+    opacity: 0.5;
+}
+#slider .slick-center img{
+    transform: scale(1);
+    opacity: 1;
+}
+#slider .slick-parent{
+    padding: 90px;
+    margin: 0;
+}
+#slider .slick-parent .card{
+    background-color: #b7b7a4;
+    color: #772f1a;
+    height: 900px;
+    padding: 10px;
+}
+#slider .slick-parent .card p{
+    font-size: 25px
+}
+#slider .slick-parent .card img{
+   padding: 30px;
+}
+#card{
+   margin-top: 10px;
+}
+#card .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card .container table{
+    width: 1500px;
+    margin-left:716px;
+}
+#register .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#register .container .card{
+    width: 400px;
+}
+#footer{
+    background-image: url(https://media.istockphoto.com/id/1346482204/photo/autumn-background-watercolor-painting-maple-leaves-in-red-and-yellow-painted-fall-leaves-and.webp?b=1&s=170667a&w=0&k=20&c=kphF9zBXkUQ7bXqkXTT4HNdpkJutOhD5SMQYZ6P3Zms=);
+    height: 700px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+   margin-top: 10px;
+}
+#footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer .container img{
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#footer .row .contains{
+    width: 500px;
+    height: 500px;
+    color: #ffff;
+    padding: 29px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+#footer .row .contains hr{
+    width: 50px;
+    height: 5px;
+    background-color: #772f1a;
+    color: #772f1a;
+}
+#footer .row .contains h2{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    padding-right: 24px;
+    
+    
+}
+#footer .row .contains p{
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#footer .row .contains h4{
+    font-family: "Arimo", sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-right: 120px;
+    color: #772f1a;
+}
+
+#footer .row .contain{
+    width: 500px;
+    height: 500px;
+    color: #ffff;
+  
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px 20px;
+}
+#footer .row .contain hr{
+    width: 50px;
+    height: 5px;
+    background-color: #772f1a;
+    color: #772f1a;
+}
+#footer .row .contain h2{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    padding-right: 24px;
+   
+    
+}
+#footer .row .contain p{
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+#footer .row .contain input{
+   
+    height: 40px;
+    width: 300px;
+}
+#footer .row .contain button{
+    border: none;
+    outline: none;
+    background-color:#772f1a;
+    padding: 20px 18px;
+    border-radius: 5px;
+    color: #fff;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    margin-left: -95px;
+}
+#footer .row .contain .row{
+    margin-top: 20px;
+    padding: 5px 10px;
+    justify-content: space-evenly;
+    display: flex;
+}
+#footer .row .contain .row i{
+    border-radius: 50%;
+    background-color: #fff;
+    color: #222;
+    padding:20px 20px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    
+}
+#footer .row .contain .row:hover i{
+    background-color: #772f1a;
+    color: #fff;
+}
